@@ -19,7 +19,7 @@
 
     <TextView
         android:id="@+id/textViewNome"
-        android:layout_width="38dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="100dp"
         android:text="@string/nome"
@@ -46,7 +46,7 @@
 
     <Button
         android:id="@+id/buttonAddNome"
-        android:layout_width="117dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
         android:text="Adicionar"
