@@ -38,9 +38,10 @@
         android:layout_marginRight="40dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Insira nome aqui"
+        android:text="@string/insira_nome_aqui"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewNome" />
+        app:layout_constraintTop_toBottomOf="@+id/textViewNome"
+        android:autofillHints="" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
