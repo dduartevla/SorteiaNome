@@ -44,4 +44,14 @@
         app:layout_constraintTop_toBottomOf="@+id/textViewNome"
         android:autofillHints="" />
 
+    <Button
+        android:id="@+id/buttonAddNome"
+        android:layout_width="117dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Adicionar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNome" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
