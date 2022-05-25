@@ -7,6 +7,8 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import java.util.Random;
+
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
@@ -43,10 +45,10 @@ public class MainActivity extends AppCompatActivity {
     public void sorteiaNome(View origem){
 
         //Fazendo o sorteio
-        int min = 0;
+        Random rand = new Random();
         int max = nomes.size();
 
-        int posicao = (int)Math.floor(Math.random()*(max-min+1)+min);
+        int posicao = rand.nextInt(max);;
 
         //Informando nome sorteado na tela
 
